@@ -8,12 +8,32 @@ h1 {
   background-color: bisque;
 }
 
+.list-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list-item {
+  height: 250px;
+  flex: 1 1 30%;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
   height: 300px;
+  width: auto;
+}
+
+.index-image {
+  height: 70%;
+  width: auto;
 }
 
 .align-center {
@@ -22,6 +42,7 @@ img {
 
 .list {
   background-color: beige;
+  border: 1px solid blue;
 }
 
 .sub-div {
